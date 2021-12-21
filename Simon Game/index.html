@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="/template/css/style.css">
+  <link rel="stylesheet" href="styles.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <a class="home-btn" href="/template/index.html">
+    <img src="/template/img/outline_home_black_24dp.png" alt="Home">
+    </a>
+  
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div class="row "> 
+      <div type="button" id="green" class="btn green ">
+        <audio id="green-audio" src="sounds/green.mp3" muted></audio>
+      </div>
+
+      <div type="button" id="red" class="btn red">
+        <audio id="red-audio" src="sounds/red.mp3" muted></audio>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+        <audio id="yellow-audio" src="sounds/yellow.mp3" muted></audio>
+      </div>
+      <div type="button" id="blue" class="btn blue">
+        <audio id="blue-audio" src="sounds/blue.mp3" muted></audio>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+
+</body>
+
+</html>
