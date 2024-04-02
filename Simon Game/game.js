@@ -57,7 +57,7 @@ function animatePress(currentColor) {
   }, 100);
 }
 
-$(document).on("keypress", function(){
+$(document).on("click", function(){
   if(started == 0){
     started = 1;
     $("h1").text("Level 0");
